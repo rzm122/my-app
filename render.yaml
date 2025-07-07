@@ -3,5 +3,5 @@ services:
     name: my-python-app
     runtime: python
     buildCommand: ""
-    startCommand: python madan rzm.py
-    main autoDeploy: true
+    startCommand: python "madan rzm.py"
+    autoDeploy: true
